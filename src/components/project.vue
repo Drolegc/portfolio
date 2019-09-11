@@ -2,8 +2,8 @@
     <div class="project" :style="myStyle">
         <h3 class="">{{dataProject.title}}</h3>
         <img :src="dataProject.images.gif" alt="img-project" class="rounded mx-auto shadow">
-        <p class="text-center mt-3 mb-0">{{ dataProject.litleDescription }}</p>
-        <b-button v-b-modal="String(dataProject.id)" class="btn btn-info mt-4 mb-0">
+        <p class="text-center mt-1 mb-0">{{ dataProject.litleDescription }}</p>
+        <b-button v-b-modal="String(dataProject.id)" class="btn btn-info mb-0">
             <font-awesome-icon icon="plus" class="plus"></font-awesome-icon>
         </b-button>
         <b-modal :id="String(dataProject.id)" :title="dataProject.title">
@@ -44,10 +44,11 @@
     }
 
     .project img {
-        width: 40vh;
+        width: 55vh;
     }
 
     .project .btn {
+        margin-top: auto;
         border: 0 solid;
         box-shadow: inset 0 0 20px rgba(53, 106, 206, 0);
         outline: 1px solid;

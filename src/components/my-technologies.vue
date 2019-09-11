@@ -43,6 +43,7 @@
 </script>
 
 <style>
+    
     .technologies {
         background-color: rgb(255, 255, 255);
         margin:0%;
@@ -50,10 +51,12 @@
 
     .technologies img {
         width: 100px;
-        margin: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .btns{
         margin-left: auto;
     }
+
 </style>

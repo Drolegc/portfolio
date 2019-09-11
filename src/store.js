@@ -54,7 +54,7 @@ export default new Vuex.Store({
         },
         images: {
           img: 'https://i.ytimg.com/vi/CtySquXKxYw/maxresdefault.jpg',
-          gif: 'https://media.giphy.com/media/ZdO4NenDbsQNwUwKDB/giphy.gif',
+          gif: '../files/cppJson.gif',
         },
         description: `
         This is a basic console programm to persist data with the library JsonCpp,
